@@ -11,7 +11,10 @@ class PostsController < ApplicationController
     Post.create(content: params[:content])
   end
 
+
+
   def show
+
   end
 
 end
